@@ -8,3 +8,8 @@
     * Export at the end of the `burger.js` file.
 
 */
+
+var orm = require('orm.js');
+
+
+console.log('read and working!');
