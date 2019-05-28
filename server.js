@@ -1,9 +1,6 @@
 
 const express = require('express');
 
-// Set Handlebars.
-var exphbs = require("express-handlebars");
-
 const app = express();
 
 const PORT = process.env.DB_PORT || 3000;
@@ -15,6 +12,9 @@ app.use(express.static("public"));
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+//set handlebars
+var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
