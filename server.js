@@ -4,6 +4,7 @@ const express = require('express');
 
 const app = express();
 
+const path = require('path');
 //set handlebars
 var exphbs = require("express-handlebars");
 
@@ -11,7 +12,7 @@ var PORT = process.env.PORT || 8080;
 
 
 // Serve static content for the app from the "public" directory in the application directory.
-app.use(express.static("public"));
+app.use('/static', express.static(path.join(__dirname, 'public')))
 
 // Parse application body as JSON
 // app.use(express.urlencoded({ extended: true }));
