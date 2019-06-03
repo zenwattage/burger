@@ -4,6 +4,7 @@ body {
   height: 100%;
   margin: 0;
   background-image: url("burgs.jpg");
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -24,40 +25,47 @@ body {
 }
 
 .row {
-  padding: 5px;
-  background-color: #015F9F;  
+  padding: 5px;  
 }
 
 .inner-row {
   display: flex;
-  background-color: blue;
+  padding: 10px;
+  
 }
 
 .undevoured-div {
   margin: 2px;
+  margin-right: 10px;
   background-color: #F9C61F;
   flex: 50%;
+  box-shadow: 2px 2px #08070F;
+  
   
 }
 .devoured-div {
   margin: 2px;
   background-color: #B9111E;
   flex: 50%;
+  box-shadow: 2px 2px #08070F;
 }
 
 
 .order-div {
-  margin: 10px;
   padding: 5px;
-  border-style: solid;
-  border-color: black;
+
   background-color: #CEE5CB;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 2px 2px #08070F;
 }
+
 
 li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  box-shadow: 2px 2px #08070F;
   
 
 }
@@ -81,4 +89,5 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  
 }

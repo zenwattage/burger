@@ -12,7 +12,7 @@
     <div class="row inner-row">
 
       <div class="col-sm-6 undevoured-div" >
-        <h2>Burgers that are not devoured!</h2>
+        <h2 id="unEatenBurgsLabel">Burgers that are un-eaten!</h2>
 
         <ul>
           {{#each burgers}}
@@ -24,7 +24,7 @@
       </div>
 
       <div class="col-sm-6 devoured-div">
-        <h2>Burgers that are devoured!</h2>
+        <h2 id="eatenBurgsLabel">Burgers that are devoured!</h2>
 
         <ul>
           {{#each burgers}}
@@ -49,7 +49,7 @@
 
   <div class="form-group">
     <label for="devoured">Is this burger eaten or un-eaten?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
+    <input type="radio" name="devoured" value="1" checked> Eaten!<br>
     <input type="radio" name="devoured" value="0"> Un Eaten
   </div>
 
