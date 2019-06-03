@@ -3,21 +3,56 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-color: cornflowerblue;
+  background-image: url("burgs.jpg");
 }
 
 
 .jumbotron-fluid {
-  margin-left: 40px;
-  margin-right: 40px;
-  background-color: palegoldenrod;
+  
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #08070F;
+  margin-bottom: 5px;
+  border: #F9C61F;
+  border-style: groove;
 }
 
 .display-4, .lead {
+  color: #CEE5CB;
   text-align: center;
+  margin: 0 auto;
+}
+
+.row {
+  padding: 5px;
+  background-color: #015F9F;  
+}
+
+.inner-row {
+  display: flex;
+  background-color: blue;
+}
+
+.undevoured-div {
+  margin: 2px;
+  background-color: #F9C61F;
+  flex: 50%;
+  
+}
+.devoured-div {
+  margin: 2px;
+  background-color: #B9111E;
+  flex: 50%;
 }
 
 
+.order-div {
+  margin: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: #CEE5CB;
+}
 
 li {
   padding: 5px;
@@ -26,17 +61,9 @@ li {
   
 
 }
-.row {
-  width: 80%;
-  margin: 0;
-}
-.non-eaten{
-
-  margin: 0 auto;
-}
 
 .eaten{
-  margin: 0 auto;
+  
   background-color: bisque;
   border: #faebd7 solid 2px;
 }
