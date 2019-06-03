@@ -1,0 +1,57 @@
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: cornflowerblue;
+}
+
+
+.jumbotron-fluid {
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: palegoldenrod;
+}
+
+.display-4, .lead {
+  text-align: center;
+}
+
+
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  
+
+}
+.row {
+  width: 80%;
+  margin: 0;
+}
+.non-eaten{
+
+  margin: 0 auto;
+}
+
+.eaten{
+  margin: 0 auto;
+  background-color: bisque;
+  border: #faebd7 solid 2px;
+}
+
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}

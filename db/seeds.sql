@@ -1,9 +1,7 @@
-/*
-In this file, write insert queries to populate the `burgers` table with at least three entries.
-
-*/
-INSERT INTO burgers (burger_name) VALUES ('Baconmaster');
-INSERT INTO burgers (burger_name) VALUES ('The Animal');
+INSERT INTO burgers (name) VALUES ('BaconMaster');
+INSERT INTO burgers (name) VALUES ('CheeseBall');
+INSERT INTO burgers (name, devoured) VALUES ('BisonBurg', true);
+INSERT INTO burgers (name, devoured) VALUES ('MilkSteak', true);
 
 
 SELECT * FROM burgers;
