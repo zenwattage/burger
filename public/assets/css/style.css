@@ -66,6 +66,7 @@ body {
 
 li {
   padding: 5px;
+  max-width: 250px;
   margin: 5px;
   background: #faebd7;
   box-shadow: 2px 2px #08070F;
@@ -77,6 +78,10 @@ li {
   
   background-color: bisque;
   border: #faebd7 solid 2px;
+}
+
+#unEatenBurgsLabel, #eatenBurgsLabel{
+  margin-left: 20px;
 }
 
 
